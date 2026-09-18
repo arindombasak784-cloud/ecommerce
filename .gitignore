@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local development runtimes and database files
+/oracleJdk-26/
+/prisma/prisma/*.db
+/prisma/prisma/*.db.*
